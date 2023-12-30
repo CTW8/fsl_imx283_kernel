@@ -1,0 +1,2023 @@
+arch/arm/mach-mx28/.usb_dr.o.cmd:cmd_arch/arm/mach-mx28/usb_dr.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.usb_dr.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(usb_dr)"  -D"KBUILD_MODNAME=KBUILD_STR(usb_dr)"  -c -o arch/arm/mach-mx28/.tmp_usb_dr.o arch/arm/mach-mx28/usb_dr.c
+arch/arm/mach-mx28/.usb_dr.o.cmd:deps_arch/arm/mach-mx28/usb_dr.o := \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/mach-mx28/usb_dr.c \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/arc_otg.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/../../regs-usbphy.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/mach-mx28/usb.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/mach-mx28/mx28_pins.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.usb_dr.o.cmd:arch/arm/mach-mx28/usb_dr.o: $(deps_arch/arm/mach-mx28/usb_dr.o)
+arch/arm/mach-mx28/.usb_dr.o.cmd:$(deps_arch/arm/mach-mx28/usb_dr.o):
+匹配到二进制文件 arch/arm/mach-mx28/device.o
+arch/arm/mach-mx28/.power.o.cmd:cmd_arch/arm/mach-mx28/power.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.power.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(power)"  -D"KBUILD_MODNAME=KBUILD_STR(power)"  -c -o arch/arm/mach-mx28/.tmp_power.o arch/arm/mach-mx28/power.c
+arch/arm/mach-mx28/.power.o.cmd:deps_arch/arm/mach-mx28/power.o := \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/mach-mx28/power.c \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.power.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/auxvec.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/page-debug-flags.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mmu.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cputime.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/cputime.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ipcbuf.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sembuf.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/signal.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/signal-defs.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sigcontext.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/siginfo.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/siginfo.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/resource.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/resource.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/4level-fixup.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/proc-fns.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cpu-single.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/vmalloc.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable-hwdef.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/pgtable.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/linux/page-flags.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.power.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.power.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/mach-mx28/mx28_pins.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/plat-mxs/include/mach/power.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/mach-mx28/include/mach/regulator.h \
+arch/arm/mach-mx28/.power.o.cmd:  arch/arm/mach-mx28/include/mach/regs-power.h \
+arch/arm/mach-mx28/.power.o.cmd:arch/arm/mach-mx28/power.o: $(deps_arch/arm/mach-mx28/power.o)
+arch/arm/mach-mx28/.power.o.cmd:$(deps_arch/arm/mach-mx28/power.o):
+arch/arm/mach-mx28/.emi.o.cmd:cmd_arch/arm/mach-mx28/emi.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.emi.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork  -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -include asm/unified.h -msoft-float       -c -o arch/arm/mach-mx28/emi.o arch/arm/mach-mx28/emi.S
+arch/arm/mach-mx28/.emi.o.cmd:deps_arch/arm/mach-mx28/emi.o := \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/mach-mx28/emi.S \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/unified.h \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/assembler.h \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable-hwdef.h \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.emi.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/mach-mx28/include/mach/regs-power.h \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/mach-mx28/regs-clkctrl.h \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/mach-mx28/regs-dram.h \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/mach-mx28/regs-digctl.h \
+arch/arm/mach-mx28/.emi.o.cmd:  arch/arm/mach-mx28/emi_settings.h \
+arch/arm/mach-mx28/.emi.o.cmd:arch/arm/mach-mx28/emi.o: $(deps_arch/arm/mach-mx28/emi.o)
+arch/arm/mach-mx28/.emi.o.cmd:$(deps_arch/arm/mach-mx28/emi.o):
+arch/arm/mach-mx28/regs-pinctrl.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/regs-pinctrl.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/regs-clkctrl.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/regs-clkctrl.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/regs-dram.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/regs-dram.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/.pinctrl.o.cmd:cmd_arch/arm/mach-mx28/pinctrl.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.pinctrl.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(pinctrl)"  -D"KBUILD_MODNAME=KBUILD_STR(pinctrl)"  -c -o arch/arm/mach-mx28/.tmp_pinctrl.o arch/arm/mach-mx28/pinctrl.c
+arch/arm/mach-mx28/.pinctrl.o.cmd:deps_arch/arm/mach-mx28/pinctrl.o := \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/mach-mx28/pinctrl.c \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:  arch/arm/mach-mx28/regs-pinctrl.h \
+arch/arm/mach-mx28/.pinctrl.o.cmd:arch/arm/mach-mx28/pinctrl.o: $(deps_arch/arm/mach-mx28/pinctrl.o)
+arch/arm/mach-mx28/.pinctrl.o.cmd:$(deps_arch/arm/mach-mx28/pinctrl.o):
+arch/arm/mach-mx28/sleep.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/sleep.h:#include "regs-clkctrl.h"
+arch/arm/mach-mx28/.gpio.o.cmd:cmd_arch/arm/mach-mx28/gpio.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.gpio.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(gpio)"  -D"KBUILD_MODNAME=KBUILD_STR(gpio)"  -c -o arch/arm/mach-mx28/.tmp_gpio.o arch/arm/mach-mx28/gpio.c
+arch/arm/mach-mx28/.gpio.o.cmd:deps_arch/arm/mach-mx28/gpio.o := \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/mach-mx28/gpio.c \
+arch/arm/mach-mx28/.gpio.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.gpio.o.cmd:  arch/arm/mach-mx28/regs-pinctrl.h \
+arch/arm/mach-mx28/.gpio.o.cmd:arch/arm/mach-mx28/gpio.o: $(deps_arch/arm/mach-mx28/gpio.o)
+arch/arm/mach-mx28/.gpio.o.cmd:$(deps_arch/arm/mach-mx28/gpio.o):
+arch/arm/mach-mx28/.device.o.cmd:cmd_arch/arm/mach-mx28/device.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.device.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(device)"  -D"KBUILD_MODNAME=KBUILD_STR(device)"  -c -o arch/arm/mach-mx28/.tmp_device.o arch/arm/mach-mx28/device.c
+arch/arm/mach-mx28/.device.o.cmd:deps_arch/arm/mach-mx28/device.o := \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/device.c \
+arch/arm/mach-mx28/.device.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ioctl.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/ioctl.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/radix-tree.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fcntl.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/fcntl.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/auxvec.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/page-debug-flags.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mmu.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cputime.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/cputime.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ipcbuf.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sembuf.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/signal.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/signal-defs.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sigcontext.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/siginfo.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/siginfo.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/resource.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/resource.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hardirq.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/socket.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sockios.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/uaccess.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/unified.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/checksum.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/dma-mapping.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/dma-attrs.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/scatterlist.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/scatterlist.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/4level-fixup.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/proc-fns.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cpu-single.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/vmalloc.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable-hwdef.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/pgtable.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/page-flags.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/dma-mapping.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/dma-coherent.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/unaligned.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/gpmi-nfc.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/map.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/include/mach/regs-timrot.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/include/mach/regs-lradc.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/include/mach/regs-ocotp.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/device.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/time.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/include/mach/dma.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/lradc.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/include/mach/lcdif.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/linux/i2c-id.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/include/mach/regs-lcdif.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/ddi_bc.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.device.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.device.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/regs-digctl.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/device.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/mx28evk.h \
+arch/arm/mach-mx28/.device.o.cmd:  arch/arm/mach-mx28/mx28_pins.h \
+arch/arm/mach-mx28/.device.o.cmd:arch/arm/mach-mx28/device.o: $(deps_arch/arm/mach-mx28/device.o)
+arch/arm/mach-mx28/.device.o.cmd:$(deps_arch/arm/mach-mx28/device.o):
+匹配到二进制文件 arch/arm/mach-mx28/sleep.o
+arch/arm/mach-mx28/Makefile.boot:   zreladdr-y	:= 0x40008000
+arch/arm/mach-mx28/Makefile.boot:params_phys-y	:= 0x40000100
+arch/arm/mach-mx28/Makefile.boot:initrd_phys-y	:= 0x40800000
+匹配到二进制文件 arch/arm/mach-mx28/usb_h1.o
+匹配到二进制文件 arch/arm/mach-mx28/clock.o
+arch/arm/mach-mx28/mx28evk.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/mx28evk.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/mx28evk.c:#include <asm/mach-types.h>
+arch/arm/mach-mx28/mx28evk.c:	//{ I2C_BOARD_INFO("sgtl5000-i2c", 0xa), .flags = I2C_M_TEN }
+arch/arm/mach-mx28/mx28evk.c:	{ I2C_BOARD_INFO("rtc-pcf8563", 0x51)  }
+arch/arm/mach-mx28/mx28evk.c:		.name = "led-run",
+arch/arm/mach-mx28/mx28evk.c:		.name = "led-err",
+arch/arm/mach-mx28/mx28evk.c:	pdev = mxs_get_device("mxs-leds", 0);
+arch/arm/mach-mx28/mx28evk.c://	pdev->resource = &mx28evk_led_res;
+arch/arm/mach-mx28/mx28evk.c:	pdev->num_resources = 0;
+arch/arm/mach-mx28/mx28evk.c:	pdev->dev.platform_data = &mx28evk_led_data;
+arch/arm/mach-mx28/mx28evk.c:	iram_init(MX28_OCRAM_PHBASE + PAGE_SIZE, MX28_OCRAM_SIZE - PAGE_SIZE);
+匹配到二进制文件 arch/arm/mach-mx28/emi_settings.o
+arch/arm/mach-mx28/device.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/device.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+匹配到二进制文件 arch/arm/mach-mx28/bus_freq.o
+匹配到二进制文件 arch/arm/mach-mx28/pinctrl.o
+arch/arm/mach-mx28/emi_settings.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/emi_settings.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/emi_settings.c:	       (unsigned int)mxs_ram_freq_scale_end -
+arch/arm/mach-mx28/.sleep.o.cmd:cmd_arch/arm/mach-mx28/sleep.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.sleep.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork  -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -include asm/unified.h -msoft-float       -c -o arch/arm/mach-mx28/sleep.o arch/arm/mach-mx28/sleep.S
+arch/arm/mach-mx28/.sleep.o.cmd:deps_arch/arm/mach-mx28/sleep.o := \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/sleep.S \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/unified.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/assembler.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable-hwdef.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/include/mach/regs-power.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/include/mach/regs-rtc.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/regs-pinctrl.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/regs-clkctrl.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/regs-dram.h \
+arch/arm/mach-mx28/.sleep.o.cmd:  arch/arm/mach-mx28/sleep.h \
+arch/arm/mach-mx28/.sleep.o.cmd:arch/arm/mach-mx28/sleep.o: $(deps_arch/arm/mach-mx28/sleep.o)
+arch/arm/mach-mx28/.sleep.o.cmd:$(deps_arch/arm/mach-mx28/sleep.o):
+匹配到二进制文件 arch/arm/mach-mx28/mx28evk_pins.o
+arch/arm/mach-mx28/usb.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/usb.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/usb.h: * Used to set pdata->operating_mode before registering the platform_device.
+arch/arm/mach-mx28/usb.h:	PDATA->operating_mode = DR_HOST_MODE;
+arch/arm/mach-mx28/usb.h:	PDATA->operating_mode = DR_UDC_MODE;
+arch/arm/mach-mx28/usb.h:		       PDATA->transceiver);
+arch/arm/mach-mx28/usb.h:	PDATA->operating_mode = FSL_USB2_DR_OTG;
+arch/arm/mach-mx28/emi_settings.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/emi_settings.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+匹配到二进制文件 arch/arm/mach-mx28/emi.o
+arch/arm/mach-mx28/usb_dr.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/usb_dr.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/usb_dr.c:	if (pdata->phy_regs != USBPHY1_PHYS_ADDR) {
+arch/arm/mach-mx28/usb_dr.c:		internal_phy_clk_already_on -= 1;
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *usb_reg = pdata->regs;
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_dr.c:	if (!pdata->port_enables) {
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *usb_reg = pdata->regs;
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_dr.c:	void __iomem *usb_reg = pdata->regs;
+arch/arm/mach-mx28/usb_dr.c: * 	- Which one to use is determined by CONFIG options in usb.h
+arch/arm/mach-mx28/usb_dr.c: * 	- operating_mode plugged at run time
+arch/arm/mach-mx28/usb_dr.c:	.name = "fsl-usb2-udc",
+arch/arm/mach-mx28/usb_dr.c:	.id   = -1,
+arch/arm/mach-mx28/usb_dr.c:	.name = "fsl-usb2-otg",
+arch/arm/mach-mx28/usb_dr.c:	.id = -1,
+arch/arm/mach-mx28/usb_dr.c:		usbdr_wakeup_config.usb_pdata[1] = pdev->dev.platform_data;
+arch/arm/mach-mx28/pinctrl.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/pinctrl.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/pinctrl.c:#include "regs-pinctrl.h"
+arch/arm/mach-mx28/pinctrl.c:		return -EINVAL;
+arch/arm/mach-mx28/pinctrl.c:	if (bank->gpio_port >= MXS_NON_GPIO)
+arch/arm/mach-mx28/pinctrl.c:		return -EINVAL;
+arch/arm/mach-mx28/pinctrl.c:	return bank->gpio_port * PINS_PER_BANK + id;
+arch/arm/mach-mx28/pinctrl.c:	addr += 0x40 * bank->id + 0x10 * (id >> 3);
+arch/arm/mach-mx28/pinctrl.c:	addr += 0x40 * bank->id + 0x10 * (id >> 3);
+arch/arm/mach-mx28/pinctrl.c:	addr += 0x10 * bank->id;
+arch/arm/mach-mx28/pinctrl.c:	addr += 0x20 * bank->id + 0x10 * (id >> 4);
+arch/arm/mach-mx28/pinctrl.c:	addr += 0x20 * bank->id + 0x10 * (id >> 4);
+arch/arm/mach-mx28/pinctrl.c:			return -EFAULT;
+arch/arm/mach-mx28/.serial.o.cmd:cmd_arch/arm/mach-mx28/serial.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.serial.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(serial)"  -D"KBUILD_MODNAME=KBUILD_STR(serial)"  -c -o arch/arm/mach-mx28/.tmp_serial.o arch/arm/mach-mx28/serial.c
+arch/arm/mach-mx28/.serial.o.cmd:deps_arch/arm/mach-mx28/serial.o := \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/mach-mx28/serial.c \
+arch/arm/mach-mx28/.serial.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/plat-mxs/include/mach/device.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/auxvec.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/linux/page-debug-flags.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mmu.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cputime.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/cputime.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ipcbuf.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sembuf.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/signal.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/signal-defs.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sigcontext.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/siginfo.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/siginfo.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/resource.h \
+arch/arm/mach-mx28/.serial.o.cmd:  include/asm-generic/resource.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hardirq.h \
+arch/arm/mach-mx28/.serial.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/time.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/mach-mx28/include/mach/dma.h \
+arch/arm/mach-mx28/.serial.o.cmd:  arch/arm/mach-mx28/device.h \
+arch/arm/mach-mx28/.serial.o.cmd:arch/arm/mach-mx28/serial.o: $(deps_arch/arm/mach-mx28/serial.o)
+arch/arm/mach-mx28/.serial.o.cmd:$(deps_arch/arm/mach-mx28/serial.o):
+匹配到二进制文件 arch/arm/mach-mx28/pm.o
+arch/arm/mach-mx28/clock.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/clock.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/clock.c:#include "regs-clkctrl.h"
+arch/arm/mach-mx28/clock.c:#include "regs-digctl.h"
+arch/arm/mach-mx28/clock.c:	return __raw_readl(clk->busy_reg) & (1 << clk->busy_bits);
+arch/arm/mach-mx28/clock.c:	if (clk->enable_reg) {
+arch/arm/mach-mx28/clock.c:		reg = __raw_readl(clk->enable_reg);
+arch/arm/mach-mx28/clock.c:		reg &= ~clk->enable_bits;
+arch/arm/mach-mx28/clock.c:		__raw_writel(reg, clk->enable_reg);
+arch/arm/mach-mx28/clock.c:	if (clk->enable_reg) {
+arch/arm/mach-mx28/clock.c:		reg = __raw_readl(clk->enable_reg);
+arch/arm/mach-mx28/clock.c:		reg |= clk->enable_bits;
+arch/arm/mach-mx28/clock.c:		__raw_writel(reg, clk->enable_reg);
+arch/arm/mach-mx28/clock.c:		div--;
+arch/arm/mach-mx28/clock.c:	int id = clk - xtal_clk;
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:	switch (clk - pll_clk) {
+arch/arm/mach-mx28/clock.c:			timeout--;
+arch/arm/mach-mx28/clock.c:			return -EFAULT;
+arch/arm/mach-mx28/clock.c:			timeout--;
+arch/arm/mach-mx28/clock.c:			return -EFAULT;
+arch/arm/mach-mx28/clock.c:	return -ENODEV;
+arch/arm/mach-mx28/clock.c:	switch (clk - pll_clk) {
+arch/arm/mach-mx28/clock.c:	unsigned long base = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	unsigned long base = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->scale_reg == 0)
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:	base = __raw_readl(clk->scale_reg);
+arch/arm/mach-mx28/clock.c:	base &= ~(0x3F << clk->scale_bits);
+arch/arm/mach-mx28/clock.c:	base |= (div << clk->scale_bits);
+arch/arm/mach-mx28/clock.c:	__raw_writel(base, clk->scale_reg);
+arch/arm/mach-mx28/clock.c:	return ref_clk_get_rate(clk->parent->get_rate(clk->parent), reg);
+arch/arm/mach-mx28/clock.c:	return ref_clk_get_rate(clk->parent->get_rate(clk->parent), reg);
+arch/arm/mach-mx28/clock.c:	return ref_clk_get_rate(clk->parent->get_rate(clk->parent), reg);
+arch/arm/mach-mx28/clock.c:	return ref_clk_get_rate(clk->parent->get_rate(clk->parent), reg);
+arch/arm/mach-mx28/clock.c:	return ref_clk_get_rate(clk->parent->get_rate(clk->parent), reg);
+arch/arm/mach-mx28/clock.c:	return ref_clk_get_rate(clk->parent->get_rate(clk->parent), reg);
+arch/arm/mach-mx28/clock.c:	rate = (clk->parent->get_rate(clk->parent));
+arch/arm/mach-mx28/clock.c:	unsigned long frac_rate, root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	if (clk->parent == &ref_cpu_clk) {
+arch/arm/mach-mx28/clock.c:			clk->parent->parent->get_rate(clk->parent->parent);
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:			s1 = (root_rate/1000)*18/clkctrl_frac/clkctrl_cpu -
+arch/arm/mach-mx28/clock.c:			s2 = (root_rate/1000)*18/c/f - (rate/1000);
+arch/arm/mach-mx28/clock.c:			int  d = (root_rate/1000)*18/clkctrl_frac/clkctrl_cpu -
+arch/arm/mach-mx28/clock.c:				return -EINVAL;
+arch/arm/mach-mx28/clock.c:		for (i = 10000; i; i--)
+arch/arm/mach-mx28/clock.c:			return -ETIMEDOUT;
+arch/arm/mach-mx28/clock.c:		for (i = 10000; i; i--)
+arch/arm/mach-mx28/clock.c:			return -ETIMEDOUT;
+arch/arm/mach-mx28/clock.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->bypass_reg) {
+arch/arm/mach-mx28/clock.c:		if (parent == clk->parent)
+arch/arm/mach-mx28/clock.c:			__raw_writel(1 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + SET_REGISTER);
+arch/arm/mach-mx28/clock.c:			__raw_writel(1 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + CLR_REGISTER);
+arch/arm/mach-mx28/clock.c:			clk->parent = parent;
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / div;
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / 750;
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / 16;
+arch/arm/mach-mx28/clock.c:		return clk->parent->get_rate(clk->parent) / div;
+arch/arm/mach-mx28/clock.c:	return (clk->parent->get_rate(clk->parent) / 0x400) * div;
+arch/arm/mach-mx28/clock.c:	root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:			return -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->parent == &xtal_clk[2])
+arch/arm/mach-mx28/clock.c:		return clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / 768;
+arch/arm/mach-mx28/clock.c:		return clk->parent->get_rate(clk->parent) / div;
+arch/arm/mach-mx28/clock.c:	root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:			return -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->busy_reg) {
+arch/arm/mach-mx28/clock.c:		for (i = 10000; i; i--)
+arch/arm/mach-mx28/clock.c:			return -ETIMEDOUT;
+arch/arm/mach-mx28/clock.c:	if (clk->parent == &ref_emi_clk)
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / reg;
+arch/arm/mach-mx28/clock.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->bypass_reg) {
+arch/arm/mach-mx28/clock.c:		if (parent == clk->parent)
+arch/arm/mach-mx28/clock.c:			__raw_writel(1 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + SET_REGISTER);
+arch/arm/mach-mx28/clock.c:			__raw_writel(0 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + CLR_REGISTER);
+arch/arm/mach-mx28/clock.c:			clk->parent = parent;
+arch/arm/mach-mx28/clock.c:	unsigned long root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	if (clk->parent == &ref_emi_clk) {
+arch/arm/mach-mx28/clock.c:	f = iram_alloc((unsigned int)mxs_ram_freq_scale_end -
+arch/arm/mach-mx28/clock.c:		return -ENOMEM;
+arch/arm/mach-mx28/clock.c:	       (unsigned int)mxs_ram_freq_scale_end -
+arch/arm/mach-mx28/clock.c:		(unsigned int)mxs_ram_freq_scale_end -
+arch/arm/mach-mx28/clock.c:	for (i = 10000; i; i--)
+arch/arm/mach-mx28/clock.c:		return -ETIMEDOUT;
+arch/arm/mach-mx28/clock.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/clock.c:	int div = (clk_get_rate(clk->parent) + rate - 1) / rate;
+arch/arm/mach-mx28/clock.c:	int i = -1;
+arch/arm/mach-mx28/clock.c:	reg_frac = __raw_readl(clk->scale_reg);
+arch/arm/mach-mx28/clock.c:	reg_frac &= ~(mask << clk->scale_bits);
+arch/arm/mach-mx28/clock.c:	while (try--) {
+arch/arm/mach-mx28/clock.c:		__raw_writel(reg_frac | (div << clk->scale_bits),
+arch/arm/mach-mx28/clock.c:				clk->scale_reg);
+arch/arm/mach-mx28/clock.c:		if (clk->busy_reg) {
+arch/arm/mach-mx28/clock.c:			for (i = 10000; i; i--)
+arch/arm/mach-mx28/clock.c:		ret = -ETIMEDOUT;
+arch/arm/mach-mx28/clock.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->bypass_reg) {
+arch/arm/mach-mx28/clock.c:		if (clk->parent == parent)
+arch/arm/mach-mx28/clock.c:			__raw_writel(1 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:					clk->bypass_reg + CLR_REGISTER);
+arch/arm/mach-mx28/clock.c:			__raw_writel(1 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:					clk->bypass_reg + SET_REGISTER);
+arch/arm/mach-mx28/clock.c:		clk->parent = parent;
+arch/arm/mach-mx28/clock.c:	switch (clk - ssp_clk) {
+arch/arm/mach-mx28/clock.c:		return clk->parent->get_rate(clk->parent) / div;
+arch/arm/mach-mx28/clock.c:	return (clk->parent->get_rate(clk->parent) / 0x200) / div;
+arch/arm/mach-mx28/clock.c:	long rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	div = __raw_readl(clk->scale_reg);
+arch/arm/mach-mx28/clock.c:		div = (div >> clk->scale_bits) & BM_CLKCTRL_DIS_LCDIF_DIV;
+arch/arm/mach-mx28/clock.c:	div = (div >> clk->scale_bits) & BM_CLKCTRL_DIS_LCDIF_DIV;
+arch/arm/mach-mx28/clock.c:	rate /= (BM_CLKCTRL_DIS_LCDIF_DIV >> clk->scale_bits) + 1;
+arch/arm/mach-mx28/clock.c:	long parent_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	reg_val = __raw_readl(clk->scale_reg);
+arch/arm/mach-mx28/clock.c:	__raw_writel(reg_val, clk->scale_reg);
+arch/arm/mach-mx28/clock.c:	if (clk->busy_reg) {
+arch/arm/mach-mx28/clock.c:		for (i = 10000; i; i--)
+arch/arm/mach-mx28/clock.c:			return -ETIMEDOUT;
+arch/arm/mach-mx28/clock.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->bypass_reg) {
+arch/arm/mach-mx28/clock.c:		if (parent == clk->parent)
+arch/arm/mach-mx28/clock.c:			__raw_writel(1 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + SET_REGISTER);
+arch/arm/mach-mx28/clock.c:			__raw_writel(0 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + CLR_REGISTER);
+arch/arm/mach-mx28/clock.c:			clk->parent = parent;
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / ((1 << reg) * 9);
+arch/arm/mach-mx28/clock.c:	unsigned int reg = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:	unsigned int reg = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / reg;
+arch/arm/mach-mx28/clock.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->bypass_reg) {
+arch/arm/mach-mx28/clock.c:		if (parent == clk->parent)
+arch/arm/mach-mx28/clock.c:			__raw_writel(1 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + SET_REGISTER);
+arch/arm/mach-mx28/clock.c:			__raw_writel(0 << clk->bypass_bits,
+arch/arm/mach-mx28/clock.c:				clk->bypass_reg + CLR_REGISTER);
+arch/arm/mach-mx28/clock.c:			clk->parent = parent;
+arch/arm/mach-mx28/clock.c:	root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:	root_rate = clk->parent->get_rate(clk->parent);
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:			return -EINVAL;
+arch/arm/mach-mx28/clock.c:		return clk->parent->get_rate(clk->parent) / div;
+arch/arm/mach-mx28/clock.c:	return (clk->parent->get_rate(clk->parent) / 0x10000) * div;
+arch/arm/mach-mx28/clock.c:	struct clk *parent = clk->parent;
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:		return -EINVAL;
+arch/arm/mach-mx28/clock.c:	clkctrl_saif = __raw_readl(clk->scale_reg);
+arch/arm/mach-mx28/clock.c:	__raw_writel(clkctrl_saif, clk->scale_reg);
+arch/arm/mach-mx28/clock.c:	if (clk->busy_reg) {
+arch/arm/mach-mx28/clock.c:		for (i = 10000; i; i--)
+arch/arm/mach-mx28/clock.c:			return -ETIMEDOUT;
+arch/arm/mach-mx28/clock.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/clock.c:	if (clk->bypass_reg) {
+arch/arm/mach-mx28/clock.c:		__raw_writel(1 << clk->bypass_bits, clk->bypass_reg + shift);
+arch/arm/mach-mx28/clock.c:	if (__raw_readl(clk->busy_reg) & clk->busy_bits)
+arch/arm/mach-mx28/clock.c:	__raw_writel(0x1, clk->enable_reg);
+arch/arm/mach-mx28/clock.c:	__raw_writel(0x1, clk->enable_reg);
+arch/arm/mach-mx28/clock.c:	if (!(__raw_readl(clk->busy_reg) & clk->busy_bits))
+arch/arm/mach-mx28/clock.c:	__raw_writel(0x0, clk->enable_reg);
+arch/arm/mach-mx28/clock.c:	__raw_writel(0x0, clk->enable_reg);
+arch/arm/mach-mx28/clock.c:	return clk->parent->get_rate(clk->parent) / 4;
+匹配到二进制文件 arch/arm/mach-mx28/serial.o
+匹配到二进制文件 arch/arm/mach-mx28/gpio.o
+arch/arm/mach-mx28/emi.S: * Copyright 2008-2010 Freescale Semiconductor, Inc.
+arch/arm/mach-mx28/emi.S: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/emi.S:#include <asm/pgtable-hwdef.h>
+arch/arm/mach-mx28/emi.S:#include <mach/regs-power.h>
+arch/arm/mach-mx28/emi.S:#include "regs-clkctrl.h"
+arch/arm/mach-mx28/emi.S:#include "regs-dram.h"
+arch/arm/mach-mx28/emi.S:#include "regs-digctl.h"
+arch/arm/mach-mx28/emi.S:	stmfd	sp!, {r1 - r10, lr}
+arch/arm/mach-mx28/emi.S:    	@11. Exit Memory self-refresh
+arch/arm/mach-mx28/emi.S:	@Wait Memory device exit into self-refresh
+arch/arm/mach-mx28/emi.S:	ldmfd   sp!, {r1 - r10, lr}
+arch/arm/mach-mx28/emi.S:	.word	. - mxs_ram_freq_scale
+arch/arm/mach-mx28/.emi_settings.o.cmd:cmd_arch/arm/mach-mx28/emi_settings.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.emi_settings.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(emi_settings)"  -D"KBUILD_MODNAME=KBUILD_STR(emi_settings)"  -c -o arch/arm/mach-mx28/.tmp_emi_settings.o arch/arm/mach-mx28/emi_settings.c
+arch/arm/mach-mx28/.emi_settings.o.cmd:deps_arch/arm/mach-mx28/emi_settings.o := \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/mach-mx28/emi_settings.c \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ioctl.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/ioctl.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/radix-tree.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fcntl.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/fcntl.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/auxvec.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/linux/page-debug-flags.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mmu.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cputime.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/cputime.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ipcbuf.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sembuf.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/signal.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/signal-defs.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sigcontext.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/siginfo.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/siginfo.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/resource.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  include/asm-generic/resource.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hardirq.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/socket.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sockios.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/map.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/plat-mxs/include/mach/clock.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/clkdev.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:  arch/arm/mach-mx28/emi_settings.h \
+arch/arm/mach-mx28/.emi_settings.o.cmd:arch/arm/mach-mx28/emi_settings.o: $(deps_arch/arm/mach-mx28/emi_settings.o)
+arch/arm/mach-mx28/.emi_settings.o.cmd:$(deps_arch/arm/mach-mx28/emi_settings.o):
+arch/arm/mach-mx28/power.c: * Freescale STMP378X voltage regulator low-level driver
+arch/arm/mach-mx28/power.c: * http://www.opensource.org/licenses/gpl-license.html
+arch/arm/mach-mx28/power.c:#include <mach/regs-power.h>
+arch/arm/mach-mx28/power.c:	struct mxs_platform_regulator_data *rdata = sreg->rdata;
+arch/arm/mach-mx28/power.c:	u32 val = __raw_readl(rdata->control_reg) & 0x1f;
+arch/arm/mach-mx28/power.c:	if (sreg->rdata->control_reg ==
+arch/arm/mach-mx28/power.c:		uv = rdata->min_voltage + val * 50000;
+arch/arm/mach-mx28/power.c:		uv = rdata->min_voltage + val *
+arch/arm/mach-mx28/power.c:		  (rdata->max_voltage - rdata->min_voltage) / 0x1f;
+arch/arm/mach-mx28/power.c:	if (!sreg->parent)
+arch/arm/mach-mx28/power.c:		return -EINVAL;
+arch/arm/mach-mx28/power.c:	uv = get_voltage(sreg->parent);
+arch/arm/mach-mx28/power.c:	offs = (__raw_readl(sreg->parent->rdata->control_reg) & ~0x700) >> 8;
+arch/arm/mach-mx28/power.c:	return uv - 25000*offs;
+arch/arm/mach-mx28/power.c:		uv, sreg->rdata->min_voltage, sreg->rdata->max_voltage);
+arch/arm/mach-mx28/power.c:	if (uv < sreg->rdata->min_voltage || uv > sreg->rdata->max_voltage)
+arch/arm/mach-mx28/power.c:		return -EINVAL;
+arch/arm/mach-mx28/power.c:	if (sreg->rdata->control_reg ==
+arch/arm/mach-mx28/power.c:		val = (uv - sreg->rdata->min_voltage) / 50000;
+arch/arm/mach-mx28/power.c:		val = (uv - sreg->rdata->min_voltage) * 0x1f /
+arch/arm/mach-mx28/power.c:			(sreg->rdata->max_voltage - sreg->rdata->min_voltage);
+arch/arm/mach-mx28/power.c:	reg = (__raw_readl(sreg->rdata->control_reg) & ~0x1f);
+arch/arm/mach-mx28/power.c:	__raw_writel(val | reg, sreg->rdata->control_reg);
+arch/arm/mach-mx28/power.c:	for (i = 20; i; i--) {
+arch/arm/mach-mx28/power.c:	__raw_writel(val | reg, sreg->rdata->control_reg);
+arch/arm/mach-mx28/power.c:	for (i = 40000; i; i--) {
+arch/arm/mach-mx28/power.c:	for (i = 40000; i; i--) {
+arch/arm/mach-mx28/power.c:	if (!sreg->parent)
+arch/arm/mach-mx28/power.c:		return -EINVAL;
+arch/arm/mach-mx28/power.c:	uv = get_voltage(sreg->parent);
+arch/arm/mach-mx28/power.c:	offs = (uv - bo_uv) / 25000;
+arch/arm/mach-mx28/power.c:		return -EINVAL;
+arch/arm/mach-mx28/power.c:	reg = (__raw_readl(sreg->parent->rdata->control_reg) & ~0x700);
+arch/arm/mach-mx28/power.c:	__raw_writel((offs << 8) | reg, sreg->parent->rdata->control_reg);
+arch/arm/mach-mx28/power.c:	for (i = 10000; i; i--) {
+arch/arm/mach-mx28/power.c:	for (i = 10000; i; i--) {
+arch/arm/mach-mx28/power.c:		val = __raw_readl(sreg->rdata->control_reg);
+arch/arm/mach-mx28/power.c:		__raw_writel(val | (1 << 17), sreg->rdata->control_reg);
+arch/arm/mach-mx28/power.c:		val = __raw_readl(sreg->rdata->control_reg);
+arch/arm/mach-mx28/power.c:		__raw_writel(val & ~(1<<17), sreg->rdata->control_reg);
+arch/arm/mach-mx28/power.c:		ret = -EINVAL;
+arch/arm/mach-mx28/power.c:	u32 val = __raw_readl(sreg->rdata->control_reg) & (1 << 17);
+arch/arm/mach-mx28/power.c:		 __func__, sreg->regulator.name, uA);
+arch/arm/mach-mx28/power.c:	if (uA > 0 && (sreg->cur_current + uA > sreg->rdata->max_current))
+arch/arm/mach-mx28/power.c:		return -EINVAL;
+arch/arm/mach-mx28/power.c:		sreg->cur_current += uA;
+arch/arm/mach-mx28/power.c:		 __func__, sreg->regulator.name, uA);
+arch/arm/mach-mx28/power.c:	if (sreg->parent) {
+arch/arm/mach-mx28/power.c:		spin_lock_irqsave(&sreg->parent->lock, flags);
+arch/arm/mach-mx28/power.c:		ret = main_add_current(sreg->parent, uA - sreg->cur_current);
+arch/arm/mach-mx28/power.c:		spin_unlock_irqrestore(&sreg->parent->lock, flags);
+arch/arm/mach-mx28/power.c:	if ((!ret) || (!sreg->parent))
+arch/arm/mach-mx28/power.c:	if (sreg->mode == REGULATOR_MODE_FAST)
+arch/arm/mach-mx28/power.c:		wait_event(sreg->parent->wait_q ,
+arch/arm/mach-mx28/power.c:			   (uA - sreg->cur_current <
+arch/arm/mach-mx28/power.c:			    sreg->parent->rdata->max_current -
+arch/arm/mach-mx28/power.c:			    sreg->parent->cur_current));
+arch/arm/mach-mx28/power.c:		spin_lock_irqsave(&sreg->parent->lock, flags);
+arch/arm/mach-mx28/power.c:		ret = main_add_current(sreg->parent, uA - sreg->cur_current);
+arch/arm/mach-mx28/power.c:		spin_unlock_irqrestore(&sreg->parent->lock, flags);
+arch/arm/mach-mx28/power.c:	if (sreg->parent && (uA - sreg->cur_current < 0))
+arch/arm/mach-mx28/power.c:		wake_up_all(&sreg->parent->wait_q);
+arch/arm/mach-mx28/power.c:	sreg->cur_current = uA;
+arch/arm/mach-mx28/power.c:	return sreg->cur_current;
+arch/arm/mach-mx28/power.c:		sreg->mode = mode;
+arch/arm/mach-mx28/power.c:		ret = -EINVAL;
+arch/arm/mach-mx28/power.c:	return sreg->mode;
+arch/arm/mach-mx28/power.c:	"mxs-duart", "mxs-bl", "mxs-i2c"
+arch/arm/mach-mx28/power.c:			return -ENOMEM;
+arch/arm/mach-mx28/power.c:		sibling_init->constraints.valid_modes_mask =
+arch/arm/mach-mx28/power.c:		sibling_init->constraints.valid_ops_mask =
+arch/arm/mach-mx28/power.c:		sibling_init->constraints.max_uA = 0x7fffffff;
+arch/arm/mach-mx28/power.c:		sibling_init->constraints.min_uA = 0x0;
+arch/arm/mach-mx28/power.c:		d->parent_name = kstrdup(sibling_cur_data.parent_name,
+arch/arm/mach-mx28/power.c:		snprintf(d->name, 80, "%s-%d",
+arch/arm/mach-mx28/power.c:			 name, i - sibling_current_devices_num + 1);
+arch/arm/mach-mx28/power.c:		sibling_init->constraints.name = kstrdup(d->name, GFP_KERNEL);
+arch/arm/mach-mx28/power.c:		sibling_init->constraints.always_on = 1;
+arch/arm/mach-mx28/power.c:		curr_reg->rdata = d;
+arch/arm/mach-mx28/power.c:	mxs_platform_add_regulator("power-test", 1);
+arch/arm/mach-mx28/sleep.S: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/sleep.S:#include <asm/pgtable-hwdef.h>
+arch/arm/mach-mx28/sleep.S:#include <mach/regs-power.h>
+arch/arm/mach-mx28/sleep.S:#include <mach/regs-rtc.h>
+arch/arm/mach-mx28/sleep.S:#include "regs-pinctrl.h"
+arch/arm/mach-mx28/sleep.S:#include "regs-clkctrl.h"
+arch/arm/mach-mx28/sleep.S:#include "regs-dram.h"
+arch/arm/mach-mx28/sleep.S:	stmfd	sp!, {r0 - r9, lr}
+arch/arm/mach-mx28/sleep.S:	ldmfd   sp!, {r0 - r9, pc}
+arch/arm/mach-mx28/sleep.S:	.word	. - mx28_cpu_standby
+arch/arm/mach-mx28/sleep.S:	stmfd	sp!, {r1 - r12, lr}
+arch/arm/mach-mx28/sleep.S:	stmia	r2!, {r3, r8-r12, sp, lr}
+arch/arm/mach-mx28/sleep.S:	sub	r1, r1, #(0xC0000000 - PHYS_RAM_START)
+arch/arm/mach-mx28/sleep.S:	sub	r1, r1, #(0xC0000000 - PHYS_RAM_START)
+arch/arm/mach-mx28/sleep.S:	add	r1, r1, #(0xC0000000 - PHYS_RAM_START)
+arch/arm/mach-mx28/sleep.S:	ldmia	r3!, {r8-r12, sp, lr}
+arch/arm/mach-mx28/sleep.S:	ldmfd   sp!, {r1 - r12, lr}
+arch/arm/mach-mx28/sleep.S:	.word	. - mx28_cpu_suspend
+arch/arm/mach-mx28/sleep.S:	ldr	r4, =(__temp_ttb - 0xC0000000 + PHYS_RAM_START)
+arch/arm/mach-mx28/sleep.S:	add	r6, r6, #(0xC0000000-PHYS_RAM_START)
+arch/arm/mach-mx28/.pm.o.cmd:cmd_arch/arm/mach-mx28/pm.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.pm.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(pm)"  -D"KBUILD_MODNAME=KBUILD_STR(pm)"  -c -o arch/arm/mach-mx28/.tmp_pm.o arch/arm/mach-mx28/pm.c
+arch/arm/mach-mx28/.pm.o.cmd:deps_arch/arm/mach-mx28/pm.o := \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/pm.c \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/auxvec.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/page-debug-flags.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mmu.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cputime.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/cputime.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ipcbuf.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sembuf.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/signal.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/signal-defs.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sigcontext.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/siginfo.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/siginfo.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/resource.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/resource.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/4level-fixup.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/proc-fns.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cpu-single.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/vmalloc.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/pgtable-hwdef.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/pgtable.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/page-flags.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hardirq.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/poll.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/poll.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ioctl.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/ioctl.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/linux/radix-tree.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fcntl.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/fcntl.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/uaccess.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/unified.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cacheflush.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/shmparam.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cachetype.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach-types.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/generated/mach-types.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/time.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/include/mach/dma.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/include/mach/regs-rtc.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/regs-clkctrl.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/include/mach/regs-power.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/include/mach/regs-pwm.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/../../regs-icoll.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/regs-dram.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/mx28_pins.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.pm.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.pm.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/mx28evk.h \
+arch/arm/mach-mx28/.pm.o.cmd:  arch/arm/mach-mx28/sleep.h \
+arch/arm/mach-mx28/.pm.o.cmd:arch/arm/mach-mx28/pm.o: $(deps_arch/arm/mach-mx28/pm.o)
+arch/arm/mach-mx28/.pm.o.cmd:$(deps_arch/arm/mach-mx28/pm.o):
+arch/arm/mach-mx28/.usb_h1.o.cmd:cmd_arch/arm/mach-mx28/usb_h1.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.usb_h1.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(usb_h1)"  -D"KBUILD_MODNAME=KBUILD_STR(usb_h1)"  -c -o arch/arm/mach-mx28/.tmp_usb_h1.o arch/arm/mach-mx28/usb_h1.c
+arch/arm/mach-mx28/.usb_h1.o.cmd:deps_arch/arm/mach-mx28/usb_h1.o := \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/mach-mx28/usb_h1.c \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/plat-mxs/include/mach/arc_otg.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/plat-mxs/include/mach/../../regs-usbphy.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach-types.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  include/generated/mach-types.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/arch.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:  arch/arm/mach-mx28/usb.h \
+arch/arm/mach-mx28/.usb_h1.o.cmd:arch/arm/mach-mx28/usb_h1.o: $(deps_arch/arm/mach-mx28/usb_h1.o)
+arch/arm/mach-mx28/.usb_h1.o.cmd:$(deps_arch/arm/mach-mx28/usb_h1.o):
+匹配到二进制文件 arch/arm/mach-mx28/.clock.c.swp
+arch/arm/mach-mx28/bus_freq.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/bus_freq.c:#include "regs-clkctrl.h"
+arch/arm/mach-mx28/bus_freq.c:#include "regs-digctl.h"
+arch/arm/mach-mx28/bus_freq.c:	busfreq_dev = &pdev->dev;
+arch/arm/mach-mx28/bus_freq.c:		return -ENODEV;
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:cmd_arch/arm/mach-mx28/mx28evk_pins.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.mx28evk_pins.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(mx28evk_pins)"  -D"KBUILD_MODNAME=KBUILD_STR(mx28evk_pins)"  -c -o arch/arm/mach-mx28/.tmp_mx28evk_pins.o arch/arm/mach-mx28/mx28evk_pins.c
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:deps_arch/arm/mach-mx28/mx28evk_pins.o := \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/mach-mx28/mx28evk_pins.c \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:  arch/arm/mach-mx28/mx28_pins.h \
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:arch/arm/mach-mx28/mx28evk_pins.o: $(deps_arch/arm/mach-mx28/mx28evk_pins.o)
+arch/arm/mach-mx28/.mx28evk_pins.o.cmd:$(deps_arch/arm/mach-mx28/mx28evk_pins.o):
+arch/arm/mach-mx28/mx28evk_pins.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/mx28evk_pins.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/mx28evk_pins.c:	 .name     = "GPMI CE0-",
+arch/arm/mach-mx28/mx28evk_pins.c:	 .name     = "GPMI CE1-",
+arch/arm/mach-mx28/mx28evk_pins.c:	 .name     = "GPMI RD-",
+arch/arm/mach-mx28/mx28evk_pins.c:	 .name     = "GPMI WR-",
+arch/arm/mach-mx28/mx28evk_pins.c:	 .name     = "GPMI RST-",
+arch/arm/mach-mx28/mx28evk_pins.c:		if (pin->fun == PIN_GPIO)
+arch/arm/mach-mx28/mx28evk_pins.c:			gpio_request(MXS_PIN_TO_GPIO(pin->id), pin->name);
+arch/arm/mach-mx28/mx28evk_pins.c:			mxs_request_pin(pin->id, pin->fun, pin->name);
+arch/arm/mach-mx28/mx28evk_pins.c:		if (pin->drive) {
+arch/arm/mach-mx28/mx28evk_pins.c:			mxs_set_strength(pin->id, pin->strength, pin->name);
+arch/arm/mach-mx28/mx28evk_pins.c:			mxs_set_voltage(pin->id, pin->voltage, pin->name);
+arch/arm/mach-mx28/mx28evk_pins.c:		if (pin->pull)
+arch/arm/mach-mx28/mx28evk_pins.c:			mxs_set_pullup(pin->id, pin->pullup, pin->name);
+arch/arm/mach-mx28/mx28evk_pins.c:		if (pin->fun == PIN_GPIO) {
+arch/arm/mach-mx28/mx28evk_pins.c:			if (pin->output)
+arch/arm/mach-mx28/mx28evk_pins.c:				gpio_direction_output(MXS_PIN_TO_GPIO(pin->id),
+arch/arm/mach-mx28/mx28evk_pins.c:							pin->data);
+arch/arm/mach-mx28/mx28evk_pins.c:				gpio_direction_input(MXS_PIN_TO_GPIO(pin->id));
+匹配到二进制文件 arch/arm/mach-mx28/power.o
+arch/arm/mach-mx28/Makefile:obj-y += pinctrl.o clock.o device.o serial.o power.o bus_freq.o pm.o sleep.o
+arch/arm/mach-mx28/Makefile:obj-$(CONFIG_MACH_MX28EVK) += mx28evk.o mx28evk_pins.o
+arch/arm/mach-mx28/Makefile:obj-$(CONFIG_GENERIC_GPIO) += gpio.o
+arch/arm/mach-mx28/Makefile:obj-$(CONFIG_MXS_RAM_FREQ_SCALING) +=emi.o emi_settings.o
+arch/arm/mach-mx28/Makefile:	obj-y   += usb_dr.o
+arch/arm/mach-mx28/Makefile:obj-$(CONFIG_USB_EHCI_ARC_H1)   += usb_h1.o
+arch/arm/mach-mx28/pm.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/pm.c:#include <asm/mach-types.h>
+arch/arm/mach-mx28/pm.c:#include <mach/regs-rtc.h>
+arch/arm/mach-mx28/pm.c:#include "regs-clkctrl.h"
+arch/arm/mach-mx28/pm.c:#include <mach/regs-power.h>
+arch/arm/mach-mx28/pm.c:#include <mach/regs-pwm.h>
+arch/arm/mach-mx28/pm.c:#include <mach/regs-rtc.h>
+arch/arm/mach-mx28/pm.c:#include <mach/../../regs-icoll.h>
+arch/arm/mach-mx28/pm.c:#include "regs-dram.h"
+arch/arm/mach-mx28/pm.c:	 * SDRAM will be placed into self-refresh during power down
+arch/arm/mach-mx28/pm.c: * mx28_pm_get_sleep_state - get sleep state we waking from
+arch/arm/mach-mx28/pm.c:		return -ENOMEM;
+arch/arm/mach-mx28/regs-digctl.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/regs-digctl.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+匹配到二进制文件 arch/arm/mach-mx28/usb_dr.o
+arch/arm/mach-mx28/device.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/device.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/device.c:#include <linux/gpmi-nfc.h>
+arch/arm/mach-mx28/device.c:#include <mach/regs-timrot.h>
+arch/arm/mach-mx28/device.c:#include <mach/regs-lradc.h>
+arch/arm/mach-mx28/device.c:#include <mach/regs-ocotp.h>
+arch/arm/mach-mx28/device.c:#include "regs-digctl.h"
+arch/arm/mach-mx28/device.c:	 .end = DUART_PHYS_ADDR + 0x1000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-duart", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = duart_resource;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(duart_resource);
+arch/arm/mach-mx28/device.c:	.end = APBH_DMA_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	.end = APBX_DMA_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	lookup = mxs_get_devices("mxs-dma");
+arch/arm/mach-mx28/device.c:	for (i = 0; i < lookup->size; i++) {
+arch/arm/mach-mx28/device.c:		pdev = lookup->pdev + i;
+arch/arm/mach-mx28/device.c:		if (!strcmp(pdev->name, "mxs-dma-apbh")) {
+arch/arm/mach-mx28/device.c:			pdev->resource = &mxs_ahb_apbh_res;
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &mxs_ahb_apbh_data;
+arch/arm/mach-mx28/device.c:		} else if (!strcmp(pdev->name, "mxs-dma-apbx")) {
+arch/arm/mach-mx28/device.c:			pdev->resource = &mxs_ahb_apbx_res;
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &mxs_ahb_apbx_data;
+arch/arm/mach-mx28/device.c:		pdev->num_resources = 1;
+arch/arm/mach-mx28/device.c:	 .end   = LCDIF_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-fb", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = framebuffer_resource;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(framebuffer_resource);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &mxs_framebuffer_pdata;
+arch/arm/mach-mx28/device.c:		.end	= (unsigned int)IO_ADDRESS(PXP_PHYS_ADDR) + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-pxp", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = pxp_resource;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(pxp_resource);
+arch/arm/mach-mx28/device.c:		.end    = DIGCTL_PHYS_ADDR + PAGE_SIZE - 1,
+arch/arm/mach-mx28/device.c:		.end    = OCOTP_PHYS_ADDR + PAGE_SIZE - 1,
+arch/arm/mach-mx28/device.c:	pdev->resource = viim_resources;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(viim_resources);
+arch/arm/mach-mx28/device.c:	 .end   = I2C0_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	 .end   = I2C1_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	lookup = mxs_get_devices("mxs-i2c");
+arch/arm/mach-mx28/device.c:	for (i = 0; i < lookup->size; i++) {
+arch/arm/mach-mx28/device.c:		pdev = lookup->pdev + i;
+arch/arm/mach-mx28/device.c:		switch (pdev->id) {
+arch/arm/mach-mx28/device.c:			pdev->resource = i2c0_resource;
+arch/arm/mach-mx28/device.c:			pdev->num_resources = ARRAY_SIZE(i2c0_resource);
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &i2c0_platdata;
+arch/arm/mach-mx28/device.c:			pdev->resource = i2c1_resource;
+arch/arm/mach-mx28/device.c:			pdev->num_resources = ARRAY_SIZE(i2c1_resource);
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &i2c1_platdata;
+arch/arm/mach-mx28/device.c:	 .end   = GPMI_PHYS_ADDR + SZ_8K - 1,
+arch/arm/mach-mx28/device.c:	 .end   = BCH_PHYS_ADDR + SZ_8K - 1,
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &gpmi_nfc_platform_data;
+arch/arm/mach-mx28/device.c:	pdev->resource          =  gpmi_nfc_resources;
+arch/arm/mach-mx28/device.c:	pdev->num_resources     = ARRAY_SIZE(gpmi_nfc_resources);
+arch/arm/mach-mx28/device.c://EasyARM-iMX283 has no poweron and wp  pin in ssp0 
+arch/arm/mach-mx28/device.c:		.end	= SSP0_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:		.end	= SSP1_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:		pdev = mxs_get_device("mxs-mmc", 0);
+arch/arm/mach-mx28/device.c:		pdev->resource = mmc0_resource;
+arch/arm/mach-mx28/device.c:		pdev->num_resources = ARRAY_SIZE(mmc0_resource);
+arch/arm/mach-mx28/device.c:		pdev->dev.platform_data = &mmc0_data;
+arch/arm/mach-mx28/device.c:		pdev = mxs_get_device("mxs-mmc", 1);
+arch/arm/mach-mx28/device.c:		pdev->resource = mmc1_resource;
+arch/arm/mach-mx28/device.c:		pdev->num_resources = ARRAY_SIZE(mmc1_resource);
+arch/arm/mach-mx28/device.c:		pdev->dev.platform_data = &mmc1_data;
+arch/arm/mach-mx28/device.c:		.end	= SSP2_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-spi",0);
+arch/arm/mach-mx28/device.c:	pdev->resource = ssp2_resources;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(ssp2_resources);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &spi_data;
+arch/arm/mach-mx28/device.c:	.end   = RTC_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-wdt", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = &mx28_wdt_res;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = 1;
+arch/arm/mach-mx28/device.c:	 .end   = RTC_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-rtc", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = mx28_rtc_res;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(mx28_rtc_res);
+arch/arm/mach-mx28/device.c:	lookup = mxs_get_devices("mxs-fec");
+arch/arm/mach-mx28/device.c:	for (i = 0; i < lookup->size; i++) {
+arch/arm/mach-mx28/device.c:		pdev = lookup->pdev + i;
+arch/arm/mach-mx28/device.c:						HW_OCOTP_CUSTn(pdev->id));
+arch/arm/mach-mx28/device.c:		switch (pdev->id) {
+arch/arm/mach-mx28/device.c:			pdev->resource = fec0_resource;
+arch/arm/mach-mx28/device.c:			pdev->num_resources = ARRAY_SIZE(fec0_resource);
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &fec_pdata0;
+arch/arm/mach-mx28/device.c:			pdev->resource = fec1_resource;
+arch/arm/mach-mx28/device.c:			pdev->num_resources = ARRAY_SIZE(fec1_resource);
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &fec_pdata1;
+arch/arm/mach-mx28/device.c:		pfec = (struct fec_platform_data *)pdev->dev.platform_data;
+arch/arm/mach-mx28/device.c:		pfec->mac[0] = 0x00;
+arch/arm/mach-mx28/device.c:		pfec->mac[1] = 0x04;
+arch/arm/mach-mx28/device.c:		pfec->mac[2] = (val >> 24) & 0xFF;
+arch/arm/mach-mx28/device.c:		pfec->mac[3] = (val >> 16) & 0xFF;
+arch/arm/mach-mx28/device.c:		pfec->mac[4] = (val >> 8) & 0xFF;
+arch/arm/mach-mx28/device.c:		pfec->mac[5] = (val >> 0) & 0xFF;
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-l2switch", 0);
+arch/arm/mach-mx28/device.c:					HW_OCOTP_CUSTn(pdev->id));
+arch/arm/mach-mx28/device.c:	pdev->resource = l2switch_resources;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(l2switch_resources);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &l2switch_data;
+arch/arm/mach-mx28/device.c:	pswitch = (struct switch_platform_data *)pdev->dev.platform_data;
+arch/arm/mach-mx28/device.c:	pfec = pswitch->fec_enet;
+arch/arm/mach-mx28/device.c:	pfec->mac[0] = 0x00;
+arch/arm/mach-mx28/device.c:	pfec->mac[1] = 0x04;
+arch/arm/mach-mx28/device.c:	pfec->mac[2] = (val >> 24) & 0xFF;
+arch/arm/mach-mx28/device.c:	pfec->mac[3] = (val >> 16) & 0xFF;
+arch/arm/mach-mx28/device.c:	pfec->mac[4] = (val >> 8) & 0xFF;
+arch/arm/mach-mx28/device.c:	pfec->mac[5] = (val >> 0) & 0xFF;
+arch/arm/mach-mx28/device.c:	 .end   = LRADC_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-lradc", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = mx28_lradc_res;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(mx28_lradc_res);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &mx28_lradc_data;
+arch/arm/mach-mx28/device.c:	{ -1, 0 },
+arch/arm/mach-mx28/device.c:	 .end   = LRADC_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-kbd", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = mx28_kbd_res;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(mx28_kbd_res);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &mxs_kbd_data;
+arch/arm/mach-mx28/device.c:	 .end   = LRADC_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-ts", 0);
+arch/arm/mach-mx28/device.c:	pdev->resource = mx28_ts_res;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(mx28_ts_res);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &mx28_ts_data;
+arch/arm/mach-mx28/device.c:		if (!--pwdn)
+arch/arm/mach-mx28/device.c:	pdev->resource = flexcan0_resources;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(flexcan0_resources);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &flexcan_data[0];
+arch/arm/mach-mx28/device.c:	pdev->resource = flexcan1_resources;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(flexcan1_resources);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &flexcan_data[1];
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-battery", 0);
+arch/arm/mach-mx28/device.c:		pdev->resource = battery_resource,
+arch/arm/mach-mx28/device.c:		pdev->num_resources = ARRAY_SIZE(battery_resource),
+arch/arm/mach-mx28/device.c:		pdev->dev.platform_data = &battery_data;
+arch/arm/mach-mx28/device.c:		.end   = DCP_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev->resource = dcp_resources;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(dcp_resources);
+arch/arm/mach-mx28/device.c:	int ret = -EINVAL;
+arch/arm/mach-mx28/device.c:		ret = -EINVAL;
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-sgtl5000", 0);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &audio_plat_data;
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-spdif", 0);
+arch/arm/mach-mx28/device.c:	 .end   = RTC_PHYS_ADDR + 0x2000 - 1,
+arch/arm/mach-mx28/device.c:	pdev = mxs_get_device("mxs-persistent", 0);
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &mx28_persistent_data;
+arch/arm/mach-mx28/device.c:	pdev->resource = mx28_persistent_res,
+arch/arm/mach-mx28/device.c:	pdev->num_resources = ARRAY_SIZE(mx28_persistent_res),
+arch/arm/mach-mx28/device.c:	pdev->dev.platform_data = &otp_data;
+arch/arm/mach-mx28/device.c:	pdev->resource = NULL;
+arch/arm/mach-mx28/device.c:	pdev->num_resources = 0;
+arch/arm/mach-mx28/device.c:	plookup = mxs_get_devices("easy283-pwm");
+arch/arm/mach-mx28/device.c:	for (i = 0; i < plookup->size; i++) {
+arch/arm/mach-mx28/device.c:		pdev = plookup->pdev + i;
+arch/arm/mach-mx28/device.c:		switch (pdev->id) {
+arch/arm/mach-mx28/device.c:			pdev->resource = NULL;
+arch/arm/mach-mx28/device.c:			pdev->num_resources = 0;
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &easy283_pwm4_platdata;
+arch/arm/mach-mx28/device.c:			pdev->resource = NULL;
+arch/arm/mach-mx28/device.c:			pdev->num_resources = 0;
+arch/arm/mach-mx28/device.c:			pdev->dev.platform_data = &easy283_pwm7_platdata;
+arch/arm/mach-mx28/serial.c:  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/serial.c:	plookup = mxs_get_devices("mxs-auart");
+arch/arm/mach-mx28/serial.c:	for (i = 0; i < plookup->size; i++) {
+arch/arm/mach-mx28/serial.c:		pdev = plookup->pdev + i;
+arch/arm/mach-mx28/serial.c:		switch (pdev->id) {
+arch/arm/mach-mx28/serial.c:			pdev->resource = auart0_resource;
+arch/arm/mach-mx28/serial.c:			pdev->num_resources = ARRAY_SIZE(auart0_resource);
+arch/arm/mach-mx28/serial.c:			pdev->dev.platform_data = &mxs_auart0_platdata;
+arch/arm/mach-mx28/serial.c:			pdev->resource = auart1_resource;
+arch/arm/mach-mx28/serial.c:			pdev->num_resources = ARRAY_SIZE(auart1_resource);
+arch/arm/mach-mx28/serial.c:			pdev->dev.platform_data = &mxs_auart1_platdata;
+arch/arm/mach-mx28/serial.c:			pdev->resource = auart2_resource;
+arch/arm/mach-mx28/serial.c:			pdev->num_resources = ARRAY_SIZE(auart2_resource);
+arch/arm/mach-mx28/serial.c:			pdev->dev.platform_data = &mxs_auart2_platdata;
+arch/arm/mach-mx28/serial.c:			pdev->resource = auart3_resource;
+arch/arm/mach-mx28/serial.c:			pdev->num_resources = ARRAY_SIZE(auart3_resource);
+arch/arm/mach-mx28/serial.c:			pdev->dev.platform_data = &mxs_auart3_platdata;
+arch/arm/mach-mx28/serial.c:			pdev->resource = auart4_resource;
+arch/arm/mach-mx28/serial.c:			pdev->num_resources = ARRAY_SIZE(auart4_resource);
+arch/arm/mach-mx28/serial.c:			pdev->dev.platform_data = &mxs_auart4_platdata;
+arch/arm/mach-mx28/.mx28evk.o.cmd:cmd_arch/arm/mach-mx28/mx28evk.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.mx28evk.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(mx28evk)"  -D"KBUILD_MODNAME=KBUILD_STR(mx28evk)"  -c -o arch/arm/mach-mx28/.tmp_mx28evk.o arch/arm/mach-mx28/mx28evk.c
+arch/arm/mach-mx28/.mx28evk.o.cmd:deps_arch/arm/mach-mx28/mx28evk.o := \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/mach-mx28/mx28evk.c \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/i2c-id.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/auxvec.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/linux/page-debug-flags.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mmu.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cputime.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/cputime.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ipcbuf.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sembuf.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/signal.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/signal-defs.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sigcontext.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/siginfo.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/siginfo.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/resource.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/resource.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/setup.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach-types.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/generated/mach-types.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/arch.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/device.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hardirq.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mach/time.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/pinctrl.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/gpio.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/plat-mxs/include/mach/gpio.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/asm-generic/gpio.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  include/mtd/mtd-abi.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/mach-mx28/device.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:  arch/arm/mach-mx28/mx28evk.h \
+arch/arm/mach-mx28/.mx28evk.o.cmd:arch/arm/mach-mx28/mx28evk.o: $(deps_arch/arm/mach-mx28/mx28evk.o)
+arch/arm/mach-mx28/.mx28evk.o.cmd:$(deps_arch/arm/mach-mx28/mx28evk.o):
+arch/arm/mach-mx28/.bus_freq.o.cmd:cmd_arch/arm/mach-mx28/bus_freq.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.bus_freq.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(bus_freq)"  -D"KBUILD_MODNAME=KBUILD_STR(bus_freq)"  -c -o arch/arm/mach-mx28/.tmp_bus_freq.o arch/arm/mach-mx28/bus_freq.c
+arch/arm/mach-mx28/.bus_freq.o.cmd:deps_arch/arm/mach-mx28/bus_freq.o := \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/mach-mx28/bus_freq.c \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/auxvec.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/linux/page-debug-flags.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/mmu.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cputime.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/cputime.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ipcbuf.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sembuf.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/signal.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/signal-defs.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sigcontext.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/siginfo.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/siginfo.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/resource.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/asm-generic/resource.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/plat-mxs/include/mach/clock.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/clkdev.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/plat-mxs/include/mach/bus_freq.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/mach-mx28/regs-clkctrl.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:  arch/arm/mach-mx28/regs-digctl.h \
+arch/arm/mach-mx28/.bus_freq.o.cmd:arch/arm/mach-mx28/bus_freq.o: $(deps_arch/arm/mach-mx28/bus_freq.o)
+arch/arm/mach-mx28/.bus_freq.o.cmd:$(deps_arch/arm/mach-mx28/bus_freq.o):
+arch/arm/mach-mx28/.built-in.o.cmd:cmd_arch/arm/mach-mx28/built-in.o :=  arm-fsl-linux-gnueabi-ld -EL    -r -o arch/arm/mach-mx28/built-in.o arch/arm/mach-mx28/pinctrl.o arch/arm/mach-mx28/clock.o arch/arm/mach-mx28/device.o arch/arm/mach-mx28/serial.o arch/arm/mach-mx28/power.o arch/arm/mach-mx28/bus_freq.o arch/arm/mach-mx28/pm.o arch/arm/mach-mx28/sleep.o arch/arm/mach-mx28/mx28evk.o arch/arm/mach-mx28/mx28evk_pins.o arch/arm/mach-mx28/gpio.o arch/arm/mach-mx28/emi.o arch/arm/mach-mx28/emi_settings.o arch/arm/mach-mx28/usb_dr.o arch/arm/mach-mx28/usb_h1.o 
+arch/arm/mach-mx28/usb_h1.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/usb_h1.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/usb_h1.c:#include <asm/mach-types.h>
+arch/arm/mach-mx28/usb_h1.c:		internal_phy_clk_already_on -= 1;
+arch/arm/mach-mx28/usb_h1.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_h1.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_h1.c:	void __iomem *usb_reg = pdata->regs;
+arch/arm/mach-mx28/usb_h1.c:	void __iomem *phy_reg = IO_ADDRESS(pdata->phy_regs);
+arch/arm/mach-mx28/usb_h1.c:	usbh1_wakeup_config.usb_pdata[0] = pdev->dev.platform_data;
+匹配到二进制文件 arch/arm/mach-mx28/built-in.o
+arch/arm/mach-mx28/mx28_pins.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/mx28_pins.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/include/mach/regs-lcdif.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-lcdif.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-apbh.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-apbh.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-apbh.h: *  multi-register-define name HW_APBH_CHn_CURCMDAR
+arch/arm/mach-mx28/include/mach/regs-apbh.h: *  multi-register-define name HW_APBH_CHn_NXTCMDAR
+arch/arm/mach-mx28/include/mach/regs-apbh.h: *  multi-register-define name HW_APBH_CHn_CMD
+arch/arm/mach-mx28/include/mach/regs-apbh.h: *  multi-register-define name HW_APBH_CHn_BAR
+arch/arm/mach-mx28/include/mach/regs-apbh.h: *  multi-register-define name HW_APBH_CHn_SEMA
+arch/arm/mach-mx28/include/mach/regs-apbh.h: *  multi-register-define name HW_APBH_CHn_DEBUG1
+arch/arm/mach-mx28/include/mach/regs-apbh.h: *  multi-register-define name HW_APBH_CHn_DEBUG2
+arch/arm/mach-mx28/include/mach/regs-icoll.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-icoll.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-icoll.h: *  multi-register-define name HW_ICOLL_RAWn
+arch/arm/mach-mx28/include/mach/regs-icoll.h: *  multi-register-define name HW_ICOLL_INTERRUPTn
+arch/arm/mach-mx28/include/mach/regs-icoll.h: *  multi-register-define name HW_ICOLL_DBGREQUESTn
+arch/arm/mach-mx28/include/mach/regs-power.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: *  multi-register-define name HW_OCOTP_CUSTn
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: *  multi-register-define name HW_OCOTP_CRYPTOn
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: *  multi-register-define name HW_OCOTP_HWCAPn
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: *  multi-register-define name HW_OCOTP_OPSn
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: *  multi-register-define name HW_OCOTP_UNn
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: *  multi-register-define name HW_OCOTP_ROMn
+arch/arm/mach-mx28/include/mach/regs-ocotp.h: *  multi-register-define name HW_OCOTP_SRKn
+arch/arm/mach-mx28/include/mach/regulator.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regulator.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/include/mach/lcdif.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc.
+arch/arm/mach-mx28/include/mach/lcdif.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/include/mach/lcdif.h:#include <linux/dma-mapping.h>
+arch/arm/mach-mx28/include/mach/lcdif.h:#include "regs-lcdif.h"
+arch/arm/mach-mx28/include/mach/lcdif.h:	list_add_tail(&pentry->link, &pdata->list);
+arch/arm/mach-mx28/include/mach/lcdif.h:	if (!pdata->cur)
+arch/arm/mach-mx28/include/mach/lcdif.h:		pdata->cur = pentry;
+arch/arm/mach-mx28/include/mach/lcdif.h:	list_move(&pentry->link, &pdata->list);
+arch/arm/mach-mx28/include/mach/lcdif.h:	list_for_each_entry(pentry, &pdata->list, link) {
+arch/arm/mach-mx28/include/mach/lcdif.h:	pdev = mxs_get_device("mxs-bl", 0);
+arch/arm/mach-mx28/include/mach/lcdif.h:	pdev->dev.platform_data = pdata;
+arch/arm/mach-mx28/include/mach/regs-lradc.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-lradc.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-lradc.h: *  multi-register-define name HW_LRADC_CHn
+arch/arm/mach-mx28/include/mach/regs-lradc.h: *  multi-register-define name HW_LRADC_DELAYn
+arch/arm/mach-mx28/include/mach/regs-pwm.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-pwm.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-pwm.h: *  multi-register-define name HW_PWM_ACTIVEn
+arch/arm/mach-mx28/include/mach/regs-pwm.h: *  multi-register-define name HW_PWM_PERIODn
+arch/arm/mach-mx28/include/mach/regs-timrot.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-timrot.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-timrot.h: *  multi-register-define name HW_TIMROT_TIMCTRLn
+arch/arm/mach-mx28/include/mach/regs-timrot.h: *  multi-register-define name HW_TIMROT_RUNNING_COUNTn
+arch/arm/mach-mx28/include/mach/regs-timrot.h: *  multi-register-define name HW_TIMROT_FIXED_COUNTn
+arch/arm/mach-mx28/include/mach/regs-timrot.h: *  multi-register-define name HW_TIMROT_MATCH_COUNTn
+arch/arm/mach-mx28/include/mach/dma.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/dma.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/include/mach/regs-ssp.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-ssp.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-pxp.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-pxp.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/regs-pxp.h: *  multi-register-define name HW_PXP_OLn
+arch/arm/mach-mx28/include/mach/regs-pxp.h: *  multi-register-define name HW_PXP_OLnSIZE
+arch/arm/mach-mx28/include/mach/regs-pxp.h: *  multi-register-define name HW_PXP_OLnPARAM
+arch/arm/mach-mx28/include/mach/regs-pxp.h: *  multi-register-define name HW_PXP_OLnPARAM2
+arch/arm/mach-mx28/include/mach/regs-rtc.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-rtc.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/include/mach/mx28.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/mx28.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/include/mach/mx28.h:	((x) - MX28_SOC_IO_PHYS_BASE + MX28_SOC_IO_VIRT_BASE)
+arch/arm/mach-mx28/include/mach/regs-i2c.h: * Copyright 2008-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/include/mach/regs-i2c.h: * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
+arch/arm/mach-mx28/gpio.c: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/gpio.c: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+arch/arm/mach-mx28/gpio.c:#include "regs-pinctrl.h"
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:		return -ENXIO;
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:	void __iomem *base = PINCTRL_BASE_ADDR + 0x10 * port->id;
+arch/arm/mach-mx28/gpio.c:			return -EFAULT;
+arch/arm/mach-mx28/.clock.o.cmd:cmd_arch/arm/mach-mx28/clock.o := arm-fsl-linux-gnueabi-gcc -Wp,-MD,arch/arm/mach-mx28/.clock.o.d  -nostdinc -isystem /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include -I/home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx28/include -Iarch/arm/plat-mxs/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(clock)"  -D"KBUILD_MODNAME=KBUILD_STR(clock)"  -c -o arch/arm/mach-mx28/.tmp_clock.o arch/arm/mach-mx28/clock.c
+arch/arm/mach-mx28/.clock.o.cmd:deps_arch/arm/mach-mx28/clock.o := \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/mach-mx28/clock.c \
+arch/arm/mach-mx28/.clock.o.cmd:  /opt/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdarg.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/linux/compiler-gcc.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/linux/compiler-gcc4.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/linkage.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/types.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/int-ll64.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitsperlong.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitsperlong.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/posix_types.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bitops.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/system.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irqflags.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/ptrace.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hwcap.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/outercache.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/cmpxchg-local.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/cmpxchg.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitops/non-atomic.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitops/fls64.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitops/sched.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitops/hweight.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitops/arch_hweight.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitops/const_hweight.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bitops/lock.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/byteorder.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/swab.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/bug.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/bug.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/div64.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/errno.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/errno.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/errno-base.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/processor.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/cache.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/string.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/thread_info.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/fpstate.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/domain.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/atomic.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/atomic64.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/atomic-long.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/current.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/linux/pageblock-flags.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/page.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/glue.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/memory.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/plat-mxs/include/mach/memory.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/sizes.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/memory_model.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/getorder.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/linux/rwsem-spinlock.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/percpu.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/percpu.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/linux/percpu-defs.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/topology.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/topology.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/plat-mxs/include/mach/irqs.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/plat-mxs/include/mach/hardware.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/mach-mx28/include/mach/mx28.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/irq_regs.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/asm-generic/irq_regs.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/hw_irq.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/io.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/plat-mxs/include/mach/io.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/delay.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/param.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/stat.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/timex.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/plat-mxs/include/mach/timex.h \
+arch/arm/mach-mx28/.clock.o.cmd:  include/linux/elf-em.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/elf.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/user.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/module.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/device.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/plat-mxs/include/mach/clock.h \
+arch/arm/mach-mx28/.clock.o.cmd:  /home/zhuguojun/EasyARM-iM283/kernel/linux-2.6.35.3/arch/arm/include/asm/clkdev.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/mach-mx28/regs-clkctrl.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/mach-mx28/regs-digctl.h \
+arch/arm/mach-mx28/.clock.o.cmd:  arch/arm/mach-mx28/emi_settings.h \
+arch/arm/mach-mx28/.clock.o.cmd:arch/arm/mach-mx28/clock.o: $(deps_arch/arm/mach-mx28/clock.o)
+arch/arm/mach-mx28/.clock.o.cmd:$(deps_arch/arm/mach-mx28/clock.o):
+arch/arm/mach-mx28/mx28evk.h: * Copyright (C) 2009-2010 Freescale Semiconductor, Inc. All Rights Reserved.
+arch/arm/mach-mx28/mx28evk.h: * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+匹配到二进制文件 arch/arm/mach-mx28/mx28evk.o
